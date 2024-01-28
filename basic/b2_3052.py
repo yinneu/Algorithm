@@ -7,4 +7,3 @@ for n in nums:
         result.append(t)
         
 print(len(result))
-    
