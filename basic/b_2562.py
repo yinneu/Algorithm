@@ -1,7 +1,6 @@
 import sys
 
 nums = []
-
 maxV = 0
 maxI = 0
 
@@ -15,3 +14,5 @@ for i in range(9):
 
 print(maxV)
 print(maxI)
+
+# max, list.index 쓰면 편함 ^^
