@@ -1,17 +1,12 @@
-s, m, total = map(int, input().split())
+a, b, v = map(int, input().split())
 
-day = s - m
+t1 = v - a
+t2 = a - b
 
-if total % day == 0:
-    n = total // day
-    # temp = (day * n-1) + s
-    temp = (day * n-1) + 1
-    result = n - m
-    # temp = (total - (day * (n-1))) / day
-    # if temp % 
-
+if t1 == 0 :
+    print(1)
 else:
-    n = total // day + 1
-    result = n
-    
-print(result)
+    if t1 % t2 != 0:
+        print(t1 // t2 + 2)
+    else:
+        print(t1 // t2 + 1)
