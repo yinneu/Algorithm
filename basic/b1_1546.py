@@ -9,4 +9,3 @@ for i in s:
         sumN += i / maxN * 100
         
 print(sumN / n)
-
