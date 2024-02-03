@@ -1,4 +1,4 @@
-# 기존 리스트 큐 사용시 시간 초과 됐던 문제
+# 기존 리스트 큐 사용시 시간 초과 됐던 문제 (덱 사용)
 from collections import deque 
 
 n = int(input())
