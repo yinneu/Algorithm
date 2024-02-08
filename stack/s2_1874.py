@@ -2,6 +2,7 @@
 # i 증가, a > i 크다면 i ++ push
 # 중복되는 연산이 많음. 좀 더 간결하게 로직써서 하면 좋을듯
 # 같거나 작을때까지 while로 push 후, a와 i가 같으면 pop() 가능, 아니면 no => 다음 수열 값이 마지막으로 넣은 값과 같아야하기 때문
+# 함수로 작성할 경우 값이 안맞으면 return 하면 됨.
 from collections import deque
 import sys
 input = sys.stdin.readline
