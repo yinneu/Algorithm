@@ -1,3 +1,5 @@
+# 문제 조건을 파악하기
+# 입력의 다양한 경우를 고려하기
 import sys
 input = sys.stdin.readline
 
