@@ -1,4 +1,4 @@
-# 최대힙
+# 최대힙 (우선순위큐)
 import heapq
 import sys
 input = sys.stdin.readline
