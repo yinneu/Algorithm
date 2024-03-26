@@ -1,3 +1,4 @@
+# bfs 문제, 거리를 구하는 문제
 import sys
 from collections import deque
 input = sys.stdin.readline
