@@ -9,4 +9,3 @@ for _ in range(10):
         maxp = person
     
 print(maxp)
-    
