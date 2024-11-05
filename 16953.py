@@ -1,5 +1,5 @@
 ## A -> B 를 만드는 연산 수의 최솟값.
-
+# bfs로 풀었는데, dfs 방식이 더 좋은거 같음.
 
 def AToB(num, target):
     count = -2
@@ -22,5 +22,3 @@ def AToB(num, target):
 a, b = map(int, input().split())
 result = AToB(a, b)+1
 print(result)
-
-
