@@ -2,9 +2,6 @@
 
 T = int(input())
 
-type1 = "BA" # 나머지 2
-type2 = "BB" # 나머지 0
-
 for _ in range(T):
     n = int(input())
     result = "impossible"
