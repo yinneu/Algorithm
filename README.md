@@ -1,1 +1,1 @@
-## Algorithm - beakjoon - python
+## Algorithm
