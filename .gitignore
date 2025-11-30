@@ -1,2 +1,6 @@
 java/.idea
 java/out
+
+*.iml
+*.xml
+.idea
